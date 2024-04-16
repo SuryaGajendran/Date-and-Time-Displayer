@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #hour{
+            border: 1px solid black;
+            border-radius: 20px;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            background-color: transparent;
+            margin-top: 150px;
+            margin-left: 150px;
+            padding-left: 50px;
+            font-weight: bolder;
+            font-size: 30px;
+            color: chocolate;
+            /* display: none; */
+        }
+        #minute{
+            border: 1px solid black;
+            border-radius: 20px;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            background-color: transparent;
+            margin-left: 100px;
+            padding-left: 50px;
+            font-weight: bolder;
+            font-size: 30px;
+            color: chocolate;
+            
+        }
+        #seconds{
+            border: 1px solid black;
+            border-radius: 20px;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            background-color: transparent;
+            margin-left: 100px;
+            padding-left: 50px;
+            font-weight: bolder;
+            font-size: 30px;
+            color: chocolate;
+        }
+        #am{
+            border: 1px solid black;
+            border-radius: 20px;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            margin-left: 100px;
+            padding-left: 20px;
+            font-weight: bolder;
+            font-size: 20px;
+            color: chocolate;
+        }
+        #format{
+            position: relative;
+            left: 650px;
+            top: 0px;
+            padding: 20px;
+            font-weight: bolder;
+            font-size: 30px;
+            border-radius: 25px;
+            background-color: chartreuse;
+        }
+        #format:hover{
+            transform: scale(0.9);
+        }
+        #date{
+            border: 1px solid black;
+            border-radius: 20px;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            background-color: transparent;
+            margin-top: 150px;
+            margin-left: 300px;
+            padding-left: 50px;
+            font-weight: bolder;
+            font-size: 30px;
+            color: chocolate;
+        }
+        #month{
+            border: 1px solid black;
+            border-radius: 20px;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            background-color: transparent;
+            margin-left: 100px;
+            padding-left: 50px;
+            font-weight: bolder;
+            font-size: 30px;
+            color: chocolate;
+            
+        }
+        #year{
+            border: 1px solid black;
+            border-radius: 20px;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            background-color: transparent;
+            margin-left: 100px;
+            padding-left: 50px;
+            font-weight: bolder;
+            font-size: 30px;
+            color: chocolate;
+        }
+        #main{
+            background-image: url("https://cdn.pixabay.com/photo/2017/11/04/22/59/time-2919087_960_720.jpg");
+        }
+       
+    </style>
+</head>
+<body>
+
+
+    <div id="main">
+
+
+        <div>
+
+
+            <div id="date">
+                <p>Date</p>
+                <p id="dtdis"></p>
+            </div>
+            <div id="month">
+                <p>month</p>
+                <p id="mondis"></p>
+            </div>
+            <div id="year">
+                <p>year</p>
+                <p id="yrdis"></p>
+            </div>
+            
+        
+        
+        
+           </div>
+
+           
+
+    
+       <div>
+    
+    
+        <div id="hour">
+            <p>Hours</p>
+            <p id="hrdis"></p>
+        </div>
+        <div id="minute">
+            <p>minutes</p>
+            <p id="mindis"></p>
+        </div>
+        <div id="seconds">
+            <p>seconds</p>
+            <p id="secdis"></p>
+        </div>
+        <div id="am">
+            <p>Am/Pm</p>
+            <p id="amdis"></p>
+        </div>
+    
+    
+    
+       </div>
+    
+    
+    
+    
+        <select name="" id="format">
+            <option value="format">format</option>
+            <option value="12">12hour</option>
+            <option value="24">24hour</option>
+        </select>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="../js/time.js"></script>
+    
+</body>
+</html>
